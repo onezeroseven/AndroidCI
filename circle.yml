@@ -2,9 +2,9 @@
 # Build configuration for Circle CI
 #
 
-general:
-    artifacts:
-        - /home/ubuntu/AndroidCI/app/build/outputs/apk/
+#general:
+#    artifacts:
+#        - /home/ubuntu/AndroidCI/app/build/outputs/apk/
 
 machine:
     environment:
