@@ -4,7 +4,7 @@
 
 machine:
     pre:
-        - chmod +x ./gradlew
+        - chmod +x ANDROID_HOME: /usr/local/android-sdk-linux ./gradlew
     environment:
         ANDROID_HOME: /usr/local/android-sdk-linux
 
