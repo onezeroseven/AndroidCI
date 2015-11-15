@@ -1,9 +1,8 @@
 #
 # Build configuration for Circle CI
 #
-before_install:
- - chmod +x gradlew
-
 test:
+  pre:
+    - chmod +x gradlew
   override:
     - ./gradlew build
